@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{0A4CDF1A-3568-4731-8AA4-C1333665D2F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefValsVsValueType", "RefValsVsValueType\RefValsVsValueType.csproj", "{10D7A401-5C6A-4134-9522-0A4CA307DD43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0A4CDF1A-3568-4731-8AA4-C1333665D2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A4CDF1A-3568-4731-8AA4-C1333665D2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A4CDF1A-3568-4731-8AA4-C1333665D2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D7A401-5C6A-4134-9522-0A4CA307DD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D7A401-5C6A-4134-9522-0A4CA307DD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D7A401-5C6A-4134-9522-0A4CA307DD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D7A401-5C6A-4134-9522-0A4CA307DD43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
