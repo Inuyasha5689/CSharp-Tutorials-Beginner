@@ -48,6 +48,9 @@ namespace DateandTime
 
             //ToString
             Console.WriteLine("ToString" + timeSpan.ToString());
+
+            //Parse
+            Console.WriteLine("Parse: " + TimeSpan.Parse("01:02:03"));
         }
     }
 }
