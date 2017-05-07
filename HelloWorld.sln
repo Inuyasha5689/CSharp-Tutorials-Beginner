@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileandFileInfo", "FileandF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryandDirectoryInfo", "DirectoryandDirectoryInfo\DirectoryandDirectoryInfo.csproj", "{BA3F8D72-36CA-428F-B430-AE0E4E17B13D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "path", "path\path.csproj", "{27E22101-5C0F-4BD2-9BA7-C78F34D99866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{BA3F8D72-36CA-428F-B430-AE0E4E17B13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3F8D72-36CA-428F-B430-AE0E4E17B13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3F8D72-36CA-428F-B430-AE0E4E17B13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E22101-5C0F-4BD2-9BA7-C78F34D99866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E22101-5C0F-4BD2-9BA7-C78F34D99866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E22101-5C0F-4BD2-9BA7-C78F34D99866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E22101-5C0F-4BD2-9BA7-C78F34D99866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
