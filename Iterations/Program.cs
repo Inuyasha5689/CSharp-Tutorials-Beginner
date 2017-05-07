@@ -38,11 +38,38 @@ namespace Iterations
 //                Console.WriteLine(character);
 //            }
 
-            var numbers = new int[] {1, 2, 3, 4};
+//            var numbers = new int[] {1, 2, 3, 4};
+//
+//            foreach (var number in numbers)
+//            {
+//                Console.WriteLine(number);
+//            }
 
-            foreach (var number in numbers)
+//            var i = 0;
+//            while (i <= 10)
+//            {
+//                if (i % 2 ==0)
+//                    Console.WriteLine(i);
+//
+//                i++;
+//            }
+
+            while (true)
             {
-                Console.WriteLine(number);
+                Console.Write("type your name: ");
+                var input = Console.ReadLine();
+
+//                if (String.IsNullOrWhiteSpace(input))
+//                    break;
+//
+//                Console.WriteLine("@Echo: " + input);
+                if (!String.IsNullOrWhiteSpace(input))
+                {
+                    Console.WriteLine("@Echo: " + input);
+                    continue;
+                }
+
+                break;
             }
         }
     }
