@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -54,23 +55,34 @@ namespace Iterations
 //                i++;
 //            }
 
-            while (true)
-            {
-                Console.Write("type your name: ");
-                var input = Console.ReadLine();
+//            while (true)
+//            {
+//                Console.Write("type your name: ");
+//                var input = Console.ReadLine();
 
 //                if (String.IsNullOrWhiteSpace(input))
 //                    break;
 //
 //                Console.WriteLine("@Echo: " + input);
-                if (!String.IsNullOrWhiteSpace(input))
-                {
-                    Console.WriteLine("@Echo: " + input);
-                    continue;
-                }
+//                if (!String.IsNullOrWhiteSpace(input))
+//                {
+//                    Console.WriteLine("@Echo: " + input);
+//                    continue;
+//                }
+//
+//                break;
+//            }
 
-                break;
-            }
+            var random = new Random();
+
+            const int passwordLength = 10;
+            char[] buffer = new char[passwordLength];
+            for(var i =0; i <passwordLength; i++)
+                buffer[i] = (char)('a' + random.Next(0, 26));
+
+            var password = new string(buffer);
+
+            Console.WriteLine(password);
         }
     }
 }
